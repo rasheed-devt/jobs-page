@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.user-info {
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.user-info img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.job-search {
+	display: flex;
+	margin-top: 20px;
+}
+
+.job-search input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.job-search button {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.job-listings {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.job {
+	flex-basis: 30%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.job h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.job p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.job button {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.job button:hover {
+	background-color: #555;
+}
+
+h1 {
+    display: inline-block;
+}
+
+a {
+    padding-left: 10px;
+    color: blue;
+}
